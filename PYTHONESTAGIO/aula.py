@@ -15,8 +15,8 @@ resultado4 = numero1 / numero2
 
 print(f'soma : {numero1} + {numero2} = {resultado1}')
 print(f'subtração : {numero1} - {numero2} = {resultado2}')
-print(f'multiplicaçã: {numero1} + {numero2} = {resultado3}')
-print(f'divisão: {numero1} + {numero2} = {resultado4}')
+print(f'multiplicaçã: {numero1} * {numero2} = {resultado3}')
+print(f'divisão: {numero1} / {numero2} = {resultado4}')
 
 if numero1 < numero2:
     print(f'o numero {numero1} é o maior')
