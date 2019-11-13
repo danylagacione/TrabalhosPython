@@ -1,10 +1,10 @@
 # Aula 6 - P2 - 12-11-2019
 # Estruturas de repetição - FOR
 
-#--- for simpes usando range com ingremento padrão de 1
+#--- for simples usando range com incremento padrão de 1
 for i in range (0,10,):
     print (f'{i}- Padawans HbPy')
-#--- for simpes usando range com ingremento de 2
+#--- for simples usando range com incremento de 2
 for i in range (0,100,2):
     print (f' {i}- Pares')
 
