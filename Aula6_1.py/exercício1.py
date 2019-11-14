@@ -4,10 +4,7 @@
 #--- Imprima a lista
 
 
-lista = ['Marcela', 'Nicole', 'Matheus','Antonio', 'Danieli', 'Bruna', 'Ruan', 'Victor', 'Diego', 'Thalita'] 
-for i in range (0,10):
-    print ( lista [i] )
-
-lista.append('Marcela')
-for selecionado in lista:
-    print (selecionado)    
+lista = [] 
+for i in range (0,11):
+    lista.append (input(f' digite o nome do aluno:'))
+    print(lista)

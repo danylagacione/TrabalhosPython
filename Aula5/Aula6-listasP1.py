@@ -4,7 +4,7 @@
 #--------inicialização de uma variável do tipo lista vazia
 lista1 = []
 
-#---------inicialização de uma variável clista, com elementos
+#---------inicialização de uma variável lista, com elementos
 lista2 = ['Marcela', 'Nicole', '*Matheus', 10]
 
 #--------lista inteiros
