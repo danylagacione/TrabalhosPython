@@ -1,25 +1,44 @@
 # Aula 3 18-11-2019
 # Input e Estruturas de decisão
 
-if 'Teti'.count('t') > 0:
-    print ('Existe "t" em teti')
-if 'e' in 'teti':
-    print ('Existe "e" em "teti"')
 
-if 'M' not in 'Teti':
-    print('nao existe "M" em "teti" ')
+# lista_numeros = [1,2,3]
+# numero = 2
+# if 'Teti'.count('t') > 0 :
+#     print('Existe "t" em "teti" ')
 
-if numero in lista:
-    print ('Existe')
-else:
-    print ('Não existe')    
+# if 'e' in 'Teti' :
+#     print('Existe "e" em "teti" ')
 
-lista_vazia = ['Teti', 'Marcela']
+# if 'M' not in 'Teti' :
+#     print('Nao Existe "M" em "teti" ')
 
-if len(lista_numeros) ==0 :
-    print ('vazia')
-else:
-    print('não vazio')
+# if numero in lista_numeros:
+#     print('Existe')
+# else:
+#     print('Nao existe')
+
+# if len(lista_numeros) ==0 :
+#     print('Vazia')
+# else:
+#     print('Não Vazio')
+
+# lista_nomes = []
+# if lista_nomes:
+#     print('Tem nomes')
+# else:
+#     print('Não tem nomes')
+
+nome = ''
+print(nome)
+nome = 'Danieli'
+print(nome[2])
+#nome[2] = 'T'
+print(nome)
+# if nome:
+#     print('Preenchido')
+# else:
+#     print('Vazio')
 
 
 

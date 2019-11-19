@@ -1,5 +1,5 @@
 #Aula 4
-#
+#---Exercício das 4 operações matemáticas básicas
 # Fazer um programa que leia 2 numeros
 # Realize as 4 operações matemáticas
 # Imprima o resultado das operações
@@ -24,6 +24,8 @@ elif numero2 > numero1:
     print (f'o numero {numero2} é o maior')
 else:
     print(f' os numeros {numero1} e {numero2} são iguais')
+    
+    
    
 
 
