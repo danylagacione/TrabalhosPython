@@ -18,12 +18,12 @@
 #---         de 4664,69 ate ------- - percetual = 27,5%
 #--- Base - http://www.calculador.com.br/calculo/salario-liquido
 
-
+z
 print('='*50, '\n')
 
 # nome_completo = input('Digite seu nome completo:')
 # cpf = input('Digite seu cpf:')
-# num_registro = int( input('Digite seu registro:') )
+# num_registro = int( input('Digite seu registro:') )zzz
 # cargo = input('Digite seu cargo:')
 
 salario = float( input('Digite seu salario:') )
