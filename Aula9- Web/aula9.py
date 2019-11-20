@@ -38,3 +38,16 @@ print (resultadoresto)
 resultadoraiz = raiz(numero1, numero2)
 print (resultadoraiz)
 
+#--- Uma maneira mais simples de se fazer seria :
+#from calculo import soma, subtracao, multiplicacao, div, divF, restodiv, raiz
+
+#n1 = int(input('\n Digite um numero: '))
+#n2 = int(input('\n Digite outro numero: '))
+
+#print(f'\n A soma entre {n1} e {n2} é: {soma(n1,n2)}')
+#print(f'\n A subtração entre {n1} e {n2} é: {subtracao(n1,n2)}')
+#print(f'\n A multiplicaçao entre {n1} e {n2} é: {multiplicacao(n1,n2)}')
+#print(f'\n A divisao inteira entre {n1} e {n2} é: {div(n1,n2)}')
+#print(f'\n A divisão fracionária entre {n1} e {n2} é: {divF(n1,n2)}')
+#print(f'\n O resto da divisão entre {n1} e {n2} é: {restodiv(n1,n2)}')
+#print(f'\n A raiz é: {raiz(n1,n2)}')
