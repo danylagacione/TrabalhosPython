@@ -18,7 +18,7 @@
 #---         de 4664,69 ate ------- - percetual = 27,5%
 #--- Base - http://www.calculador.com.br/calculo/salario-liquido
 
-z
+
 print('='*50, '\n')
 
 # nome_completo = input('Digite seu nome completo:')

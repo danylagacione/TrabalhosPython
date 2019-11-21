@@ -23,7 +23,12 @@ def calcular():
     r_divisaofracionada = divisaofracionada(n1,n2)
     r_resto = resto(n1,n2)
     r_raiz = raiz(n1,n2)
-    resultados = {'soma':r_soma, 'subtracao':r_subtracao, 'multiplicacao':r_multiplicacao, 'divisaointeira':r_divisaointeira, 'divisaofracionada':r_divisaofracionada,'resto':r_resto,'raiz':r_raiz}
+    resultados = {'soma':r_soma
+    ,'subtracao':r_subtracao
+    ,'multiplicacao':r_multiplicacao
+    ,'divisaointeira':r_divisaointeira
+    ,'divisaofracionada':r_divisaofracionada
+    ,'resto':r_resto,'raiz':r_raiz}
 
     return render_template('resultado.html', resultados = resultados)
 
