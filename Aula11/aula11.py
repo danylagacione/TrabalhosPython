@@ -43,17 +43,20 @@
 #       calcular o valor total até o vencimento do titulo
 
 #valor selic 10.410,00
-#titulo dividido por cotas 100
+#taxa selic 5.00+0.02 ao ano
+#titulo dividido por cotas 100 ou 0,01
 #vencimento 01/03/2025
 
 from tesouroselic import rentabilidade
 
-valorinvestido= float (input('Digite o valor a ser investido:'))
-cotas= int (input ('Digite quantas cotas deseja adquirir:'))
-taxaselic = float(input('Digite valor da taxa:'))
+# valorinvestido= float (input('Digite o valor a ser investido:'))
+cotas= float(input ('Digite quantas cotas deseja adquirir:'))
+# taxaselic = float(input('Digite valor da taxa:'))
  
-rentabilidademensal = rentabilidade (valorinvestido, cotas, taxaselic)
-print (f'O valor investido foi:{valorinvestido}, \n Cotas adquiridas: {cotas},\n Rentabildade do investimento:{rentabilidademensal:.2f}')
+# rentabilidademensal = rentabilidade (valorinvestido, cotas, taxaselic)
+# print (f'O valor investido foi:{valorinvestido}, \n Cotas adquiridas: {cotas},\n Rentabildade do investimento:{rentabilidademensal:.2f}')
+
+
 
 #---4-
 #---5-
