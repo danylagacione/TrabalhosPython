@@ -37,8 +37,9 @@ nome = (input ('Digite o nome:'))
 sobrenome = (input ('Digite o sobrenome:'))
 idade = int (input ('Digite a sua idade:'))
 
-# pessoa = {'nome':nome, 'sobrenome':sobrenome, 'idade':idade} #f'{name}; {sobrenome}; {idade}'
+# pessoa = {'nome':nome, 'sobrenome':sobrenome, 'idade':idade}
 # salvar_pessoa(pessoa)
+
 for p in ler():
     print(f"{p['nome']} - {p['sobrenome']} - {p['idade']}")
 
