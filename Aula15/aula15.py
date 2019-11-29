@@ -43,4 +43,4 @@ for p in ler():
     print(f"{p['nome']} - {p['sobrenome']} - {p['idade']}")
 
 
-#+\n pula a linha, o mesmo que '\n'. OU pode ser feito dessa maneira arquivo.write(f'{name}\n
+#+\n pula a linha, o mesmo que '\n'. OU pode ser feito dessa maneira arquivo.write(f'{name}\n)
