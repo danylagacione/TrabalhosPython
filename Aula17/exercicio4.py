@@ -1,7 +1,7 @@
 #-- Criar um programa para o cadastro de cliente
 # Para cadastro de clientes deve pedir os seguintes dados:
 #Código do cliente, CPF, Nome completo,
-# data de nascimento, Estado, Cidade, CEP, Bairro, Rua, numeto da casa, complemento.
+# data de nascimento, Estado, Cidade, CEP, Bairro, Rua, numero da casa, complemento.
 
 # Uma funcionalidade do range colocar uma variável, mas ela tem que ser do tipo int ao invés de digitar os numeros.
 
