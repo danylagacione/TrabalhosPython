@@ -15,6 +15,8 @@ lista = [
 
 # 2.1 - Faça uma função que pegue esta lista e retorne uma lista com um dicionario.
 
+def 
+
 # 2.2 - Faça outra função para consultar o preço através do código passado
 # por parametro. Esta função deve printar o nome do produto, a quantidade
 # e o preço.
