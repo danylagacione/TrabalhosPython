@@ -29,11 +29,12 @@ class Cliente:
         else:
             self.dinheiro_na_carteira = self.dinheiro_na_carteira + salario
 
-    # def comprar (self, comprou_algo):
-    #     if self.bens == True:
-    #         self.bens = 'aumentou seus bens' 
-    #     else:
-    #         self.bens = 'Sim, diminuiu o dinheiro na carteira'     
+    def comprar (self, comprou_algo):
+        if self.bens == 0:
+            self.bens = comprou_algo
+        if self.bens >= 1:
+            self.bens - self.dinheiro_na_carteira = 'Fique atento, seu dinheiro está diminuindo'
+
         
     # def pagar_divida (self, dividas):
     #     if self.divida == True:
@@ -47,12 +48,12 @@ p = Cliente (70, '000.222.333-44', 'João', 20, 'M')
 
 p.receber_salario(800)
 p.receber_salario (500)
-# p.comprar(300) 
+p.comprar(200) 
 # p.pagar_divida (200)
 
 print(f'Código do Cliente{p.codigo}, CPF: {p.cpf}, Nome:{p.nome}, Idade: {p.idade}, Sexo: {p.sexo}')
 print(f'Recebeu o salário?{p.dinheiro_na_carteira}')
-# print(f'Comprou algo?{p.bens}')
+print(f'Comprou algo?{p.bens}')
 # print(f'Pagou a dívida?{p.pagar_divida}')
 
 
