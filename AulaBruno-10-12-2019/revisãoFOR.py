@@ -1,64 +1,64 @@
-# numero_inicial = int (input('Qual número você deseja começar a somar?'))
-# numero_final = int (input('Agora, até qual número devemos somar?'))
-# total = 0 # acumulador
-# for numero in range(numero_inicial, numero_final+1):
-#     #total = total + numero
-#     total += numero
-# print(f'Total:{total}')   
+numero_inicial = int (input('Qual número você deseja começar a somar?'))
+numero_final = int (input('Agora, até qual número devemos somar?'))
+total = 0 # acumulador
+for numero in range(numero_inicial, numero_final+1):
+    #total = total + numero
+    total += numero
+print(f'Total:{total}')   
 
-# total = 0
-# for numero in [50,51,52,53,54,55,56,57] + list(range(66,101)): 
-#     total += numero
-# print(f'Total gohorse:{total}')
+total = 0
+for numero in [50,51,52,53,54,55,56,57] + list(range(66,101)): 
+    total += numero
+print(f'Total gohorse:{total}')
 
-# texto = "Tá legal, nosso proprio split, 3 textos em uma lista"
+texto = "Tá legal, nosso proprio split, 3 textos em uma lista"
 
-# print(texto.split(','))
+print(texto.split(','))
 
-# def nosso_split(txt, sep):
-#     #return txt.split(sep)
-#     result = []
-#     count = 0
-#     last_sep_pos = 0
-#     for char in txt:
-#         if char == sep:
-#             result.append( txt[last_sep_pos:count] )
-#             last_sep_pos = count +1
-#         count += 1
-#     if last_sep_pos<len(txt)-1:
-#         result.append(txt[last_sep_pos:])
+def nosso_split(txt, sep):
+    #return txt.split(sep)
+    result = []
+    count = 0
+    last_sep_pos = 0
+    for char in txt:
+        if char == sep:
+            result.append( txt[last_sep_pos:count] )
+            last_sep_pos = count +1
+        count += 1
+    if last_sep_pos<len(txt)-1:
+        result.append(txt[last_sep_pos:])
 
-#     return result
+    return result
 
-# print(nosso_split(texto, ','))
+print(nosso_split(texto, ','))
 
 
 
-# print('em range')
-# for i in range(1, 100, 2):
-#     print(i)
-# print('esse é o i depois do for', i)
-# print('em lista')
-# for i in [1,2,3,4,5,6,7,8]:
-#     print(i)
+print('em range')
+for i in range(1, 100, 2):
+    print(i)
+print('esse é o i depois do for', i)
+print('em lista')
+for i in [1,2,3,4,5,6,7,8]:
+    print(i)
 
-# print('em texto')
-# for i in "TEXTO":
-#     print(i)
+print('em texto')
+for i in "TEXTO":
+    print(i)
 
-# arquivo = open('arquivo.txt')
-# soma = 0
-# # interest = 'Lorem'
-# interest = input('Digite a palavra que deseja contar: ')
-# total_interest = 0
-# for linha in arquivo:
-#     print('Caracteres na linha: ', len(linha))
-#     soma += len(linha)
-#     total_interest += linha.lower().count(interest.lower())
-# arquivo.close()
+arquivo = open('arquivo.txt')
+soma = 0
+# interest = 'Lorem'
+interest = input('Digite a palavra que deseja contar: ')
+total_interest = 0
+for linha in arquivo:
+    print('Caracteres na linha: ', len(linha))
+    soma += len(linha)
+    total_interest += linha.lower().count(interest.lower())
+arquivo.close()
 
-# print('Arquivo com', soma, 'caracteres')
-# print('A palavra ', interest, 'apareceu ', total_interest)
+print('Arquivo com', soma, 'caracteres')
+print('A palavra ', interest, 'apareceu ', total_interest)
 
    
 # For para dicionário
