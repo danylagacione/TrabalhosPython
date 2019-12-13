@@ -9,7 +9,7 @@
 # 1 - Para isso o programa necessita que separe os clientes maiores de 20 anos 
 # em um arquivo separado chamado menores_de_idade.txt
 
-# 2 - Separar os clientes femininos e salvar em um arquivo chamado feminini.txt
+# 2 - Separar os clientes femininos e salvar em um arquivo chamado feminino.txt
 
 # 3 - Fazer um terminal de consulta onde se digita o código cliente e 
 # imprima na tela o (f-string) o codigo, nome, idade, sexo, email, telefone.

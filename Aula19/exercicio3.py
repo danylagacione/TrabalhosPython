@@ -7,7 +7,7 @@
 # Com o arquivo de cadastro.txt onde possui os seguintes dados: codigo cliente, nome, idade, sexo, e-mail e telefone
 # 1 - Crie um metodo que gere e retorne uma lista com dicionário(biblioteca) com os dados dos clientes
 
-def 
+
 
 # 2 - Com a lista do exercicio 1, separe os adultos dos menores de idade e salve em um arquivo .txt cada.
 # Esta função tambem retornar uma lista com a biblioteca dos maiores de idades.

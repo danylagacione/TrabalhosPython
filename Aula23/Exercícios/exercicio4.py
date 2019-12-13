@@ -28,4 +28,14 @@
 # Cerveja ipa  R$ 0,05 /ml 
 # Cerveja ale  R$ 0,063 /ml 
 
+class Cliente:
+    def __init__(self, nome, idade, telefone):
+        self.nome = 'nome do cliente'
+        self.idade = 0
+        self.telefone = '479999-9999'
+        
+        self.saldo = 100
+
+    def saldo_cartão (self):
+            
 

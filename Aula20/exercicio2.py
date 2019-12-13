@@ -8,12 +8,11 @@
 # 2.76
 
 # DICA2: Há 3 operadores matemáticos para a divisão: / // e o %
-# / - é a divisão total entre os dois números. Pode resultar em numeros 
-# reais.
+# ------ / - é a divisão total entre os dois números. Pode resultar em numeros reais.
 # Exemplo: 5 / 3 = 1.6666666666666667
-# // - é a divisão inteira. Ela vai resultar em números inteiros
+#------- // - é a divisão inteira. Ela vai resultar em números inteiros
 # Exemplo: 5 // 3 = 1
-# % - é o resto da divisão inteira. É o que sobra.
+# ------- % - é o resto da divisão inteira. É o que sobra.
 # Exemplo: 5 % 3 = 2
 
 
@@ -30,3 +29,4 @@ moeda = [{'Moeda(s)':1.00},{'Moeda(s)':0.50},{'Moeda(s)':0.25},
 
 # Monte um metodo que leia um valor e imprima (f-string) a quantidade de 
 # cada nota(s) e moeda(s) necessária(s) para devolver o troco ao cliente.
+

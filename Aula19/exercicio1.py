@@ -10,17 +10,17 @@ cadastroHBSIS = ['nome',   ['Alex'   ,'Paulo'  ,'Pedro'  ,'Mateus' ,'Carlos' ,'J
                 ]
 
 
-# nome  Alex telefone: 4799991
-# idade Carlos é 15 anos
-# email de Mateus é d@d.com
-# print(f'{cadastroHBSIS[0]}: {cadastroHBSIS[1][0]} - {cadastroHBSIS[2]} - {cadastroHBSIS[3][0]}')
-# print(f'{cadastroHBSIS[6]}: {cadastroHBSIS[1][4]} é {cadastroHBSIS[7][4]}') 
-# print(f'{cadastroHBSIS[4]} de {cadastroHBSIS[1][3]} é {cadastroHBSIS[5][3]}')
+nome  Alex telefone: 4799991
+idade Carlos é 15 anos
+email de Mateus é d@d.com
+print(f'{cadastroHBSIS[0]}: {cadastroHBSIS[1][0]} - {cadastroHBSIS[2]} - {cadastroHBSIS[3][0]}')
+print(f'{cadastroHBSIS[6]}: {cadastroHBSIS[1][4]} é {cadastroHBSIS[7][4]}') 
+print(f'{cadastroHBSIS[4]} de {cadastroHBSIS[1][3]} é {cadastroHBSIS[5][3]}')
 
 # # 2 - usando o for, imprima todos nomes um abaixo do outro
 
-# for i in cadastroHBSIS[1]:
-#     print(i)
+for i in cadastroHBSIS[1]:
+    print(i)
 
 # 3 - Usando a indexação faça uma lista com 3 dicionário contendo os dados do Mateus, Paulo e João
 #  contendo como chaves: nome, email, idade, telefone (nesta  sequencia)
