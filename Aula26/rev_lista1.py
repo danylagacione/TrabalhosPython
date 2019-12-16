@@ -48,7 +48,7 @@ print( len(lista_numerica) ) #o resultado é 7 itens
 
 
 Há dois operadores relacionas que podem ser usados em qualquer objetos do
-pythom. No cao da lista eles podem ajudar e muito.
+python. No caso da lista eles podem ajudar e muito.
 
 Operador in
 Este operado verifica se o iten faz parte da lista.
