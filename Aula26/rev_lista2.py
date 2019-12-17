@@ -9,7 +9,7 @@ de uma lista.
 
 ###################### .join() ######################
 
-Já conhhecemos o elemento .split('') que pega uma string e quebra em uma lista. 
+Já conhecemos o elemento .split('') que pega uma string e quebra em uma lista. 
 Agora vamos conhecer um comando que irá fazer o contrário. Este irá converter
 uma lista em uma string.
 
@@ -135,7 +135,7 @@ copia todas as listas.
 
 
 count(valor)
-Retorna o mumero de ocorrência de um determinado valor dentro da lista.
+Retorna o numero de ocorrência de um determinado valor dentro da lista.
 
 >>> lista = [1,2,3,'a','b','c',3,'a',3]
 >>> lista.count(3)

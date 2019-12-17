@@ -1,4 +1,4 @@
-# Aula 21 - 16-12-2019
+# Aula 28 - 16-12-2019
 # Metodos da lista
 
 from geradorlista import lista_simples_int_str
@@ -9,12 +9,6 @@ from geradorlista import lista_simples_impura
 from geradorlista import embaralhar
 from geradorlista import embaralhar_int_str_hard
 from geradorlista import binario
-
-
-
-
-
-
 
 # Exercícios baseados do livro Pense em Python.
 
