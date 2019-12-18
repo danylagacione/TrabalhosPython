@@ -57,10 +57,13 @@ texto = '''1;Arnaldo;23;m;alexcabeludo2@hotmail.com;014908648117
 49;Silvio;45;m;laurim_crazyboy@hotmail.com;033986392040
 50;Vanusa;23;m;aline_gatinha_13@yahoo.com.br;015938655596'''
 
-def funcao (texto):
-    lista=[]
-    dicionario = {texto}
-    lista.append(dicionario)        
-    return lista
 
-funcao(texto)
+def funcao (texto):
+    texto_linhas = texto.split('\n')
+    lista_de_pessoas = []
+    for linha in texto_linhas:
+        pessoa = linha.split(';')        
+        dicionario = {'codigo':pessoa[0], 'nome':pessoa[1], 'idade':pessoa[2], 'sexo':pessoa[3], 'email':pessoa[4], 'telefone':pessoa[5] }
+        lista_de_pessoas.append(dicionario)
+    return lista_de_pessoas
+print(funcao(texto))        

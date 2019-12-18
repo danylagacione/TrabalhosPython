@@ -23,6 +23,14 @@ from geradorlista import binario
 
 lista1 = [lista_simples_int() ,lista_simples_int(), lista_simples_int()]
 
+def nested_sum(lista1):
+    lista = []
+    lista.extend(lista[1]) # extend funciona como se fosse um append
+    lista.extend(lista[2])
+    lista.extend(lista[3])
+    print(f'O somatória das listas é: {sum(lista)}')
+    return lista
+lista_numeros = nested_sum(lista1)    
 
 # 2) Com as seguintes listas, transforme em uma string para poder gravar (futuramente) em um arquivo!
 
@@ -34,6 +42,8 @@ lista_cadastrados = ['1', '11111111111', 'João Carlos', '12/12/90',
 
 lista_cadastrados1 = ['2', '22222222222', 'Paulo Roberto', '23/01/89',
                   'SC', 'Blumenau', '99999', 'Velha', '7 de setembro', '55', '']
+
+                  
 
 
 
