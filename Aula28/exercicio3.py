@@ -12,3 +12,5 @@ lista = [['1', 'Arnaldo', '23', 'm', 'alexcabeludo2@hotmail.com', '014908648117'
 # 2) Após receber a lista da função, imprima na tela a quantidade de mulheres e de homens que tem nesta lista.
 
 
+
+
