@@ -27,7 +27,7 @@ class Transporte():
     __fortwo_pos = "terminal"
 
     def lerArquivo(self, nome):
-        arquivo = open('TrabalhosPython\\Aula29\\{}.txt'.format(nome), 'r')
+        arquivo = open("TrabalhosPython//Aula29{}.txt".format(nome),'r')
         if nome == "terminal":
             for linha_st in arquivo:
                 linha = linha_st.strip()
@@ -37,11 +37,11 @@ class Transporte():
         elif nome == "aviao":
             for linha_st in arquivo:
                 linha = linha_st.strip()
-                self.__ter__avião.append(linha)
+                self.__avião.append(linha)
             arquivo.close()
 
     def adicionarNoArquivo(self, nome):
-        arquivo = open("TrabalhosPython\\Aula29\\{}.txt".format(nome), "w")
+        arquivo = open("TrabalhosPython//Aula29{}.txt".format(nome),"w")
         if nome == "terminal":
             for dado in self.__terminal:
                 arquivo.write(f'{dado}\n')
@@ -86,7 +86,7 @@ class Transporte():
         print(f'Fortwo posicao - {self.__fortwo_pos}')
         print(f'Terminal - {self.__terminal}')
         print(f'Aviao - {self.__avião}')
-        print("\n" + "#" * 125)
+        print("\n" + "#" * 120)
 
 
     def loop(self):
@@ -157,3 +157,4 @@ class Transporte():
 
 fortwo = Transporte()
 fortwo.loop()
+

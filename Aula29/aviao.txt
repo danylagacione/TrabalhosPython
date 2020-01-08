@@ -1,8 +1,0 @@
-piloto
-chefe de voo
-presidiario
-policial
-oficial 2
-comissaria 2
-comissaria 1
-oficial 1
