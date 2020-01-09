@@ -13,8 +13,9 @@
 #
 #-- O Select- lista/seleciona os dados da tabela no BD, ex: select * from Pessoa( o * seleciona todos os dados da tabela)
 #    (pessoa é o nome da tabela)
-#    caso queira selecionar somente uma informação exemplo o sobrenome fica select sobrenome from Pessoa,
-# Para inserir um novo dado na tabela é:
+#    caso queira selecionar somente uma informação exemplo o sobrenome fica select sobrenome from Pessoa.
+#
+#----Para inserir um novo dado na tabela é:
 # Insert into Pessoa 
 # ( 
 #   Nome
@@ -27,4 +28,8 @@
 #   'Honda'
 #   ,15
 # )
-# # Ferramenta beaver
+#--- Quando deseja alterar/mudar a informação da tabela:
+# UPDATE danielilagacione - seleciona a tabela que quer mudar
+#	SET telefone = 02030405 - mudando o dado da tabela que deseja alterar
+#	WHERE id = 1 - qual a pessoa/linha da tabela que vai ser alterado
+# 
