@@ -1,4 +1,4 @@
-#--- Banco de dados 08-01-2020
+#--- BANCO DE DADOS 08-01-2020
 
 # SGBD - Sistema Gerenciador de Banco de Dados
 # Mysql, Sqlserver...
@@ -33,3 +33,8 @@
 #	SET telefone = 02030405 - mudando o dado da tabela que deseja alterar
 #	WHERE id = 1 - qual a pessoa/linha da tabela que vai ser alterado
 # 
+#-------- AULA DIA 10-01-2020 --------
+#---PK(chave primária) é igual ID, pode ser o nome também, preferível que seja auto incremente(vai fazendo automático)
+#---FK (chave instrangeira) quando se refere a outra tabela, apontando para outra tabela
+# 
+
