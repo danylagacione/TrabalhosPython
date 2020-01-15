@@ -33,9 +33,24 @@ def deletar_endereco(cn, cr, id):
 conexao = MySQLdb.connect(host= '127.0.0.1', database= 'aulabd', user='root')
 cursor = conexao.cursor()
 
-#listar_endereco(cursor) 
+listar_endereco(cursor) 
 #selecionar_ID_endereco(cursor, 2)
 #selecionar_logradouro(cursor, 'Rua')
-salvar_endereco(conexao, cursor, 'Rua do amanhã', '20B', 'Apto 123', 'Bairro','Blumenau', '456789')
+#salvar_endereco(conexao, cursor, 'Rua do amanhã', '20B', 'Apto 123', 'Bairro','Blumenau', '456789')
 #alterar_endereco(conexao, cursor, 2, 'Rua definida','20c', 'Casa da Árvore', 'Área Sul','Floresta Encantada', '444555666')  
 #deletar_endereco(conexao, cursor,3)
+
+# ===== outra maneira de se fazer o def listar_todos:
+def listar_endereco(c):
+    c.execute('SELECT * FROM ENDERECO')
+    enderecos = cursor.fetchall() 
+    lista = ['id','logradouro', 'numero', 'complemento', 'bairro', 'cidade', 'cep']
+    lista2 = []
+    for ed in enderecos: 
+        dic = dict(zip(lista, ed))
+        a= list(zip(lista, ed))
+        print(ed)
+        #(4, 'Rua do amanhã', '20B', 'Apto 123', 'Bairro', 'Blumenau', '456789')
+        print(a)
+        lista2.append(dic)
+    print(lista2)
