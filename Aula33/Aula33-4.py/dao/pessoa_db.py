@@ -29,7 +29,7 @@ class PessoaDb:
         lista_pessoas = []
         for p in lista_tuplas:
             #----- Criação do objeto da classe pessoa
-            p1 = Pessoa()
+            p1 = Pessoa() # objeto da classe(cria uma variável e dentro dela chama a classe)
             #--- pega cada posição da tupla e atribui a uma chave do dicionário
             p1.id = p[0]
             p1.nome = p[1]
