@@ -12,5 +12,5 @@ class Pessoa:
             for p in lista_pessoas:
                 arquivo.write(f"{str(p)}\n")
     
-    def __str__(self):
+    def __str__(self):# método para as informações retornarrem como uma string
         return f'{self.id};{self.nome};{self.sobrenome};{self.idade};{self.endereco_id}'

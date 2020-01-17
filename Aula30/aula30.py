@@ -43,4 +43,8 @@
 # From pessoa as P --nomeando a tabela pessoa como P
 # join endereço as E --nomeando a tabela endereço (tabela que vai ser ligada a primeira(pode usar o inner join))
 # on P.endereco_ID = E.ID 
+# Outra maneira para se usar o Join:
+# From pessoa as P --nomeando a tabela pessoa como P
+# LEFT ou RIGHT join endereço as E --nomeando a tabela endereço 
+# on P.endereco_ID = E.ID  
 
