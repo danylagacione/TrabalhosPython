@@ -21,3 +21,6 @@ def cadastrar():
     return render_template('cadastrar.html', titulo_app = nome)
 
 app.run(debug=True)
+
+#na url depois do ? pega prarametros, (um dicionário), com chaves e valores, usando o request.args[] e a posição,
+# para colocar mais que um se usa o & 
