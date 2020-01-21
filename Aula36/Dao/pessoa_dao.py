@@ -1,5 +1,5 @@
 import MySQLdb
-from Model.pessoa import Pessoa
+from Model.pessoa import Pessoa 
 
 class PessoaDao:
     conexao = MySQLdb.connect(host='mysql.topskills.study', database='topskills01', user='topskills01', passwd='ts2019')

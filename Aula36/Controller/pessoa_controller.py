@@ -1,4 +1,4 @@
-ffrom Dao.pessoa_dao import PessoaDao
+from Dao.pessoa_dao import PessoaDao
 from Model.pessoa import Pessoa
 from Model.endereco import Endereco
 from Controller.endereco_controller import EnderecoController
