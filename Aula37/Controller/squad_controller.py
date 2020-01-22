@@ -1,33 +1,35 @@
+import sys
+sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
+from Dao.dao_squad import SquadDao
 from Model.model_squad import Squad
-from Dao.squadDao import SaquadDao
-
 
 class SquadController:
-    dao = squadDao()
+    dao = SquadDao()
+    model = Squad()
     
     def listar_todos(self):
         lista_squad = []
         lista_tuplas = self.dao.listar_todos()
         for s in lista_tuplas:
-            Squad = Squad()
+            squad = Squad()
             squad.id =  s[0]
             squad.nome = s[1]
             squad.descricao = s[2]
-            squad.numeropessoas =s[3]
-            squad.linguagemBackEnd = s[4]
-            squad.frameworkFrontEnd = s[5]         
+            squad.numero_pessoas =s[3]
+            squad.linguagem_backend = s[4]
+            squad.framework_frontend = s[5]         
             lista_squad.append(squad)
         return lista_squad
 
     def buscar_por_id(self, id):
         s = self.dao.buscar_por_id(id)
-        Squad = Squad()
-            squad.id =  s[0]
-            squad.nome = s[1]
-            squad.descricao = s[2]
-            squad.numeropessoas =s[3]
-            squad.linguagemBackEnd = s[4]
-            squad.frameworkFrontEnd = s[5] 
+        squad = Squad()
+        squad.id =  s[0]
+        squad.nome = s[1]
+        squad.descricao = s[2]
+        squad.numero_pessoas =s[3]
+        squad.linguagem_BackEnd = s[4]
+        squad.framework_FrontEnd = s[5] 
         return squad
 
     def salvar(self, squad:Squad):
@@ -40,3 +42,4 @@ class SquadController:
 
     def deletar(self, id):
         self.dao.deletar(id)
+

@@ -1,3 +1,4 @@
+
 class Squad:
     def __init__(self):
         self.id = 0
@@ -9,3 +10,5 @@ class Squad:
 
     def __str__(self):
         return f'{self.id};{self.nome};{self.descricao};{self.numero_pessoas};{self.linguagem_BackEnd};{self.framework_FrontEnd}'
+
+squad = Squad()        
