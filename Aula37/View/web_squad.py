@@ -43,12 +43,6 @@ def salvar():
     squad.numero_pessoas = request.args['numero_pessoas']
     squad.linguagem_backend = request.args ['linguagem_backend']
     squad.framework_frontend = request.args ['framework_frontend']
-  
-#     pessoa.endereco = end
-#     if pessoa.id == 0:
-#         pessoa_controller.salvar(pessoa)
-#     else:
-#         pessoa_controller.alterar(pessoa)
-#     return redirect('/listar')
+    return redirect('/listar')
 
 app.run(debug=True)

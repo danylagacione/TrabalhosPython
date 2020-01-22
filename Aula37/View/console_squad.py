@@ -4,11 +4,11 @@ from Controller.squad_controller import SquadController
 from Model.model_squad import Squad
 
 squad = Squad()
-squad.nome = 'Pdawan'
-squad.descricao = 'estagiários'
-squad.numero_pessoas = 40
-squad.linguagem_backend = 'Pyhton'
-squad.frameworkfrontend = 'django'
+# squad.nome = 'Pdawan'
+# squad.descricao = 'estagiários'
+# squad.numero_pessoas = 40
+# squad.linguagem_backend = 'Pyhton'
+# squad.frameworkfrontend = 'django'
 
 controller = SquadController()
 print(controller.buscar_por_id(1))
