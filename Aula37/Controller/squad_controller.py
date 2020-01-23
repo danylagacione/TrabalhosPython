@@ -28,18 +28,18 @@ class SquadController:
         squad.nome = s[1]
         squad.descricao = s[2]
         squad.numero_pessoas =s[3]
-        squad.linguagem_BackEnd = s[4]
-        squad.framework_FrontEnd = s[5] 
+        squad.linguagem_backend = s[4]
+        squad.framework_frontend = s[5] 
         return squad
 
     def salvar(self, squad:Squad):
-        squad.id = self.squad_controller.salvar(salvar)
         return self.dao.salvar(squad)
 
     def alterar(self, squad:Squad):
-        self.squad_controller.alterar(salvar)
         self.dao.alterar(squad)
 
     def deletar(self, id):
         self.dao.deletar(id)
+
+
 

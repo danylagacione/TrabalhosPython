@@ -18,13 +18,13 @@
             <div class="descricoes"> 
                 <label for="descricao">Descrição:</label>
             </div>
-            <input type="text" name="descricao" id="descricao" placeholder="Descrição do Squad" value="{{squad.descricoes}}"> <br/>
+            <input type="text" name="descricao" id="descricao" placeholder="Descrição do Squad" value="{{squad.descricao}}"> <br/>
             <div class="descricoes"> 
                 <label for="numero_pessoas">Número Pessoas:</label>
             </div>
-            <input type="text" name="numero_pessoas" id="numero_pessoas" placeholder="Número de integrantes" value="{{squad.numero_pessoas if squad.numero_pessoas != 0 else ''}}"> <br/>
+            <input type="text" name="numero_pessoas" id="numero_pessoas" placeholder="Número de integrantes" value="{{squad.numero_pessoas}}"> <br/>
             <div class="descricoes"> 
-                <label for="linguagem_backend">Linguaem BackEnd:</label>
+                <label for="linguagem_backend">Linguagem BackEnd:</label>
             </div>
             <input type="text" name="linguagem_backend" id="linguagem_backend" placeholder="Linguagem BackEnd" value="{{squad.linguagem_backend}}"> <br/>
             <div class="descricoes"> 
@@ -33,7 +33,7 @@
             <input type="text" name="framework_frontend" id="framework_frontend" placeholder="Framework FrontEnd" value="{{squad.framework_frontend}}"> <br/>
             <div>
             
-            <hr/>
+            <hr/>                 
             <input type="submit" value="Salvar" class="salvar">
             <a href="/cadastrar" class="limpar">Limpar</a>
         </form>
