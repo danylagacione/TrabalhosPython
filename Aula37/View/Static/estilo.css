@@ -1,17 +1,17 @@
 body{
     background: #fff;
-    color:#508edfdc;
+    color:#77a3dddc;
 }
 #tabela-squad{
     width: 95%;
     margin: 3em auto 2em;
     border-collapse: collapse;
     border-radius: 1em;
-    background: #eca5ec;
+    background: #fff;
     border-radius: 1em;
 }
 #tabela-squad thead tr th{
-    background: #b967c4;
+    background: #fff;
     padding: 0.8em;
     text-align: left;
     
@@ -22,7 +22,7 @@ body{
 }
 .btn-cadastro{
     color:#fff;
-    background: #185201;
+    background: #3c6ae9;
     margin: 2.2 em ;
     padding: 10px;
     text-decoration: none;
@@ -38,7 +38,7 @@ body{
 }
 
 
-/* Formularios
+/* #---Formularios */
 form{
     width: 60%;
     margin: 2em auto ;
@@ -49,10 +49,10 @@ form{
     color:#fff;
     padding: 0.2em;
     text-decoration: none;
-    background:#f8d700;
+    background:#0fe946;
 }
 .editar:hover{
-    color:#f8d700;
+    color:#0fe946;
     background:#fff;
     border:1px solid #f8d700;
 }
@@ -78,9 +78,9 @@ form{
 }
 .salvar:hover
 {
-    color:#185201;
+    color:#042a70;
     background: #fff;
-    border: 1px solid #185201;
+    border: 1px solid #0d0174c2;
 }
 .limpar{
     padding: 0.6em 1em;
@@ -110,4 +110,4 @@ input[type='text']{
 }
 input[type='text'] , .descricoes{
     display: inline-block;
-} */
+}

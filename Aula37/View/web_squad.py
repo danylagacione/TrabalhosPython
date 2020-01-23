@@ -40,7 +40,7 @@ def salvar():
     squad.id = int(request.args['id'])
     squad.nome = request.args['nome']
     squad.descricao = request.args['descricao']
-    squad.numero_pessoas = request.args['numero_pessoas']
+    squad.numero_pessoas = int(request.args['numero_pessoas'])
     squad.linguagem_backend = request.args['linguagem_backend']
     squad.framework_frontend = request.args['framework_frontend']
       

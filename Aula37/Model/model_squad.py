@@ -11,4 +11,5 @@ class Squad:
     def __str__(self):
         return f'{self.id};{self.nome};{self.descricao};{self.numero_pessoas};{self.linguagem_backend};{self.framework_frontend}'
 
-squad = Squad()        
+squad = Squad() 
+       

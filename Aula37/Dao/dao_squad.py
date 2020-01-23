@@ -2,6 +2,7 @@ import sys
 sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
 import MySQLdb
 from Model.model_squad import Squad
+#from Controller.squad_controller import SquadController
 
 
 class SquadDao:
@@ -47,10 +48,10 @@ class SquadDao:
     def alterar(self, squad:Squad):
         comando_sql = f""" UPDATE cadastrosquad
         SET
-            nome = '{squad.nome}'
-            descricao = '{squad.descricao}'
-            numero_pessoas ={squad.numero_pessoas},
-            linguagem_backend = '{squad.linguagem_backend}'
+            nome = '{squad.nome}',
+            descricao = '{squad.descricao}',
+            numero_pessoas = {squad.numero_pessoas},
+            linguagem_backend = '{squad.linguagem_backend}',
             framework_frontend = '{squad.framework_frontend}'
         WHERE id = {squad.id}
         """
