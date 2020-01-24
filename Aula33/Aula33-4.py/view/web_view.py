@@ -16,7 +16,8 @@ def inicio():
 
 
 
-app.run(debug=True) # NUNCA subir pro servidor com o debug = True (ele mostra na página web onde exatamente é que está o seu erro)
+app.run(debug=True) 
+# NUNCA subir pro servidor com o debug = True (ele mostra na página web onde exatamente é que está o seu erro)
 # e ainda facilita a entrada de hacker
 #=== O render template ele te possibilita retornar uma página de html, render template aponta para o index
 # usando a barra na route por ser a rota principal (onde se inicia).

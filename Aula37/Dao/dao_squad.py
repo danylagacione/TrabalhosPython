@@ -1,5 +1,6 @@
+#sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
 import sys
-sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
+sys.path.append(r'C:\Users\Dell\Documents\TrabalhosPython\Aula37')
 import MySQLdb
 from Model.model_squad import Squad
 #from Controller.squad_controller import SquadController

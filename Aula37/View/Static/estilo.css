@@ -28,8 +28,8 @@ body{
     text-decoration: none;
 }
 .btn-cadastro:hover{
-    color:#185201;
-    background: #fff;
+    color:#fff;
+    background: #3c6ae9;
     border: 1px solid #185201;
 }
 .conteudo{

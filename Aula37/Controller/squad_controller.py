@@ -1,5 +1,6 @@
+#sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
 import sys
-sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
+sys.path.append(r'C:\Users\Dell\Documents\TrabalhosPython\Aula37')
 from Dao.dao_squad import SquadDao
 from Model.model_squad import Squad
 
