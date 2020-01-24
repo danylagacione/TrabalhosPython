@@ -11,4 +11,4 @@
 # CRUD de linguagens BackEnd
 # CRUD de Frameworks Frontend
 # CRUD de Sgbds (Banco de dados)
-# Adicioanar vinculo destas 3 tabelas na tabela squad (FK)
+# Adicionar vinculo destas 3 tabelas na tabela squad (FK)

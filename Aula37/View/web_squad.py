@@ -1,7 +1,7 @@
-#sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
 from flask import Flask, render_template, request, redirect
 import sys
-sys.path.append(r'C:\Users\Dell\Documents\TrabalhosPython\Aula37')
+#sys.path.append(r'C:\Users\Dell\Documents\TrabalhosPython\Aula37')
+sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
 from Controller.squad_controller import SquadController
 from Model.model_squad import Squad
 
