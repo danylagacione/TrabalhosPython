@@ -1,8 +1,14 @@
 import sys
 #sys.path.append(r'C:\Users\Dell\Documents\TrabalhosPython\Aula37')
 sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
-from Dao.dao_squad import SquadDao
-from Model.model_squad import Squad
+from Dao.squad_dao import SquadDao
+from Model.squad_model import Squad
+from Model.model_backend import BackEnd
+from Model.model_frontend import FrontEnd
+from Model.model_sgbds import Sgbds
+from Dao.dao_backend import BackEndDao
+from Dao.dao_frontend import FrontEndDao
+from Dao.dao_sgbds import SgbdsDao
 
 class SquadController:
     dao = SquadDao()

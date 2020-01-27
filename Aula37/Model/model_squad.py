@@ -1,3 +1,6 @@
+from Model.model_backend import  Backend
+from Model.model_frontend import Frontend
+from Model.model_sgbds import Sgbds
 
 class Squad:
     def __init__(self):
@@ -5,8 +8,6 @@ class Squad:
         self.nome = ''
         self.descricao = ''
         self.numero_pessoas = 0
-        self.linguagem_backend = ''
-        self.framework_frontend = ''
         self.fk_linguagem_backend = 0
         self.fk_framework_frontend = 0
         self.fk_sgbds = 0

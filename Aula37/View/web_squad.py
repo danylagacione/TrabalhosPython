@@ -2,8 +2,11 @@ from flask import Flask, render_template, request, redirect
 import sys
 #sys.path.append(r'C:\Users\Dell\Documents\TrabalhosPython\Aula37')
 sys.path.append(r'C:\Users\900134\Documents\TrabalhosPython\Aula37')
-from Controller.squad_controller import SquadController
 from Model.model_squad import Squad
+from Controller.squad_controller import SquadController
+from Controller.frontend_controller import FrontEndController
+from Controller.backend_controller import BackEndController
+from Controller.sgdbs_controller import SgbdsController
 
 app = Flask(__name__)
 squad_controller = SquadController()
@@ -16,15 +19,21 @@ def inicio():
 @app.route('/listar')
 def listar():
     squad = squad_controller.listar_todos()
-    return render_template('listar.html', titulo_app = nome, lista = squad)
+    front = frontEndController.listar_frontend()
+    back = BackEndController.listar_backend()
+    sgdbs = SgbdsController.listar_sgbds()
+    return render_template('listar.html', titulo_app = nome, lista = squad, lista1 = front, lista2= back, lista3= sgdbs)
 
 @app.route('/cadastrar')
 def cadastrar():
     squad = Squad()
+    front = frontEndController.listar_frontend()
+    back = BackEndController.listar_backend()
+    sgdbs = SgbdsController.listar_sgbds()
     if 'id' in request.args:
         id = request.args['id']
         squad = squad_controller.buscar_por_id(id)
-    return render_template('cadastrar.html', titulo_app = nome, squad = squad)
+    return render_template('cadastrar.html', titulo_app = nome, squad = squad, lista1 = front, lista2= back, lista3= sgdbs)
 
 
 @app.route('/excluir')
