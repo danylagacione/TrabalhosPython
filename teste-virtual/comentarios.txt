@@ -1,0 +1,18 @@
+Comentários Aula 40 API
+
+pip3 install flask_restful
+#=== MÉTODOS HTTP
+#GET - insrir informação, se retornar a busca por um único id ele a informação, 
+    caso não coloque nada ele retorna todas as informações no banco de dados
+    obtém o recurso. Obtém o conjunto de recursos ou uma página dele, caso o servidor implemente paginação
+#POST - salvar a informação no banco de dados, é como se fosse o GET, mas passa por de baixo dos panos
+        cria o recurso e adiciona ao conjunto, o servidor escolhe o URL do novo recuro e devolve em um cabeçalho Location na resposta 
+        (código resposta 201)
+        
+#PUT - editar
+#DELETE
+#INSOMNIA (instalar)
+
+# toda rota da api é /api ex:  '/api/cerveja'
+# responde ao método GET
+# a porta 5000 é para produção (caso não de erro ou não funcione) usar uma porta alternativa)
