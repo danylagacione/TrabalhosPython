@@ -2,13 +2,13 @@ Comentários Aula 40 API
 
 pip3 install flask_restful
 #=== MÉTODOS HTTP
-#GET - insrir informação, se retornar a busca por um único id ele a informação, 
     caso não coloque nada ele retorna todas as informações no banco de dados
     obtém o recurso. Obtém o conjunto de recursos ou uma página dele, caso o servidor implemente paginação
 #POST - salvar a informação no banco de dados, é como se fosse o GET, mas passa por de baixo dos panos
-        cria o recurso e adiciona ao conjunto, o servidor escolhe o URL do novo recuro e devolve em um cabeçalho Location na resposta 
-        (código resposta 201)
-        
+        cria o recurso e adiciona ao conjunto, o servidor escolhe o URL do novo recuro e devolve em um
+        cabeçalho Location na resposta (código resposta 201)
+#GET - insrir informação, se retornar a busca por um único id ele a informação,
+
 #PUT - editar
 #DELETE
 #INSOMNIA (instalar)
@@ -16,3 +16,10 @@ pip3 install flask_restful
 # toda rota da api é /api ex:  '/api/cerveja'
 # responde ao método GET
 # a porta 5000 é para produção (caso não de erro ou não funcione) usar uma porta alternativa)
+
+### CRIANDO AMBIENTE VIRTUAL
+# tem que ter o virtualenv instalado, o comando é virtualenv --python="o caminho que está instalado o pyhton no pc"
+#           Aulatal/ENV e enter.
+# ativando o scripts de ativação, acessar a pasta através do endereço dela\Scripts\activate
+# instalar as bibliotecas que vai utilizar ex: flask
+#
