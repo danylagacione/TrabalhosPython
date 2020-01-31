@@ -34,21 +34,36 @@
 
 # dicionario nome a linguagem
 
-pessoas = ['carol', 'tiago', 'mateus']
-listaBD = ['sql', 'postegree', 'mongo']
-lista_linguagem = ['php', 'java', 'python']
-lista_framework = ['react', 'vue', 'angular']
+# pessoas = ['carol', 'tiago', 'mateus']
+# listabd = ['sql', 'postegree', 'mongo']
+# lista_linguagem = ['php', 'java', 'python']
+# lista_framework = ['react', 'vue', 'angular']
+# tupla_dados = ('nome','l_backend', 'banco_dados', 'framework')
 
-tupla_dados = ('nome','l_backend', 'banco_dados', 'framework')
-lista_dicio  = []
+# class SquadHbsis:
+#     def __init__(self):
+#         self.pessoas = pessoas
+#         self.lisbd = listabd 
+#         self.lista_linguagem = lista_linguagem
+#         self.lista_framework = lista_framework
+#         self.tupla_dados = tulpa_dados
 
-k = 0
-for i in range(1,4):
-    dicio = {tupla_dados[0]:pessoas[k], tupla_dados[1]: listaBD[k], 
-            tupla_dados[2]:lista_linguagem[k], tupla_dados[3]:lista_framework[k] }
-    lista_dicio.append(dicio)
-    k = k + 1
-print(lista_dicio)
+#     def listar(self, pessoas, listabd, lista_linguagem, lista_framework, tupla_dados):    
+#         lista_dicio  = []
+#         pessoas = ['carol', 'tiago', 'mateus']
+#         listabd = ['sql', 'postegree', 'mongo']
+#         lista_linguagem = ['php', 'java', 'python']
+#         lista_framework = ['react', 'vue', 'angular']
+#         tupla_dados = ('nome','l_backend', 'banco_dados', 'framework')
+#         k = 0
+#         for i in range(1,4):
+#             dicio = {tupla_dados[0]:pessoas[k], tupla_dados[1]: listaBD[k], 
+#                     tupla_dados[2]:lista_linguagem[k], tupla_dados[3]:lista_framework[k] }
+#             lista_dicio.append(dicio)
+#             k = k + 1
+#         print(lista_dicio)
+
+
 
 
 

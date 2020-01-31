@@ -1,15 +1,22 @@
+
 from flask_restful import Resource
 
+from Aula41.Dao.pessoa_dao import PessoaDao
 
 class PessoaController(Resource):
-    def get(self):
-        return 'Acesso a controladora pessoa pelo metodo HTTP GET'
+    def __init__(self):
+        self.dao = PessoaDao()
+    def get(self, id=None):
+        if id:
+            return self.dao.get_by_id(id)
+        return self.dao.list_all()
 
     def post(self):
-        return 'Acesso a controladora pessoa pelo metodo HTTP POST'
-
+        msg = self.dao.insert('')
+        return msg
     def put(self):
-        return 'Acesso a controladora pessoa  pelo metodo HTTP PUT'
-
+        msg = self.dao.update('')
+        return msg
     def delete(self):
-        return 'Acesso a controladora pessoa  pelo metodo HTTP DELETE'
+        msg = self.dao.remove(10)
+        return msg
