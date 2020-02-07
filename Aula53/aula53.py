@@ -33,3 +33,5 @@ enderecos = dao.list_all()
 print(enderecos)
 for e in enderecos:
     print(e)
+# outra maneira de se fazer o for e in dao.listall()
+#                                print(p)

@@ -1,6 +1,7 @@
 
 #--- Criação da classe base de acessoa ao banco de dados
 import sqlalchemy as db
+from sqlalchemy.orm.session import sessionmaker
 
 # class BaseDao:
 #     def __init__(self):
@@ -20,6 +21,6 @@ class BaseDao:
         # --- Declaração da variável para geração de uma sessao com o banco de dados
         criador_sessao = db.orm.sessionmaker()
         # --- Configuração para que a sessão ao ser gerada, utilize os dados de acesso ao banco criados nas linhas anteriores
-        criador_sessao.configure(bind=conexao)
+        criador_sessao.configure(bind=conexao) # usa a cariável bind para fazer a conexão com a url do banco de dados
         # --- Criação de uma sessao com o banco de dados
         self.sessao = criador_sessao()
