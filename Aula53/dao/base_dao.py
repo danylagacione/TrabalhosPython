@@ -24,3 +24,25 @@ class BaseDao:
         criador_sessao.configure(bind=conexao) # usa a cariável bind para fazer a conexão com a url do banco de dados
         # --- Criação de uma sessao com o banco de dados
         self.sessao = criador_sessao()
+
+    def listar_todos(self) -> list:
+        return self.sessao.query(self.model_type).all()
+
+    def buscar_por_id(self, id):
+        return self.sessao.query(self.model_type).filter_by(id=id).one()
+
+    def deletar(self, id) -> str:
+        model = self.sessao.query(self.model_type).filter_by(id=id).one()
+        self.sessao.delete(model)
+        self.sessao.commit()
+        return f"Deletado obj de id {id}"
+
+    def inserir(self, model) -> str:
+        self.sessao.add(model)
+        self.sessao.commit()
+        return f"Obj de id: {model.id} criada"
+
+    def alterar(self, model) -> str:
+        self.sessao.merge(model)
+        self.sessao.commit()
+        return f"Obj {model.nome} alterado com sucesso!"

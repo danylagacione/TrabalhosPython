@@ -20,5 +20,4 @@ class EnderecoModel(BaseAlchemy):
 
     # --- Sobreescrita do método para conversão do objeto da classe em uma string para imprimir as variáveis
     def __str__(self):
-        return "{}-{}-{}-{}-{}-{}-{}".format(self.id, self.logradouro,self.numero, self.complemento, self.bairro
-                                             , self.cidade, self.cep)
+        return f"{self.id};{self.logradouro};{self.numero};{self.complemento};{self.bairro};{self.cidade};{self.cep}"
