@@ -1,0 +1,26 @@
+App -  39 pessoas
+13 trios
+
+BaseDeDesenv
+host:       mysql.padawans.dev
+database:   padawans03
+user:       padawans03
+pwd:        padawans2020
+
+
+13-Funcionalidades - Rede social
+1 - Login
+2 - Cadastro/Edição - Pessoa
+3 - Chat
+4 - Post
+5 - Amigos - Melhores amigos
+6 - Grupos (Comunidades do Orkut/ CRUD)
+7 - Comentários (Só aponta para tabela que deseja comentar)
+8-  Eventos
+9 - Reações = (Feedback)
+10 - Notificações
+11 - Perfis (Grupos, e pessoas)
+12 - Feed
+13 - Privacidade
+
+

@@ -13,10 +13,9 @@ class BaseDao:
         list = []
         list_model =self.session.query(self.table).all()
         for m in list_model:
-             list.append(m.__dict__)
-        print(list)
+            list.append(m.serialize())
         return list
-        #return self.session.query(self.table).all()
+
 
     def get_by_id(self, id):
         return self.session.query(self.table).filter_by(id=id).one()
