@@ -1,5 +1,5 @@
 
-# Teste de classe
+# Teste 2 - Classe
 
 # class Calc:
 #     def __init__(self):
@@ -21,7 +21,7 @@ class Calc:
 
     def set_n1(self, valor):
         self.__n1 = valor
-        return  valor
+        return valor
     def get_n1(self):
         return self.__n1
 
