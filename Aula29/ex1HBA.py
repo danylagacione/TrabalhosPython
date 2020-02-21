@@ -26,33 +26,33 @@ class Transporte():
     __avião = []
     __fortwo_pos = "terminal"
 
-    def lerArquivo(self, nome):
-        arquivo = open("TrabalhosPython//Aula29{}.txt".format(nome),'r')
-        if nome == "terminal":
-            for linha_st in arquivo:
-                linha = linha_st.strip()
-                self.__terminal.append(linha)
-            arquivo.close()
+     def lerArquivo(self, nome):
+         arquivo = open("TrabalhosPython//Aula29{}.txt".format(nome),'r')
+         if nome == "terminal":
+             for linha_st in arquivo:
+                 linha = linha_st.strip()
+                 self.__terminal.append(linha)
+             arquivo.close()
 
-        elif nome == "aviao":
-            for linha_st in arquivo:
-                linha = linha_st.strip()
-                self.__avião.append(linha)
-            arquivo.close()
+         elif nome == "aviao":
+             for linha_st in arquivo:
+                 linha = linha_st.strip()
+                 self.__avião.append(linha)
+             arquivo.close()
 
-    def adicionarNoArquivo(self, nome):
-        arquivo = open("TrabalhosPython//Aula29{}.txt".format(nome),"w")
-        if nome == "terminal":
-            for dado in self.__terminal:
-                arquivo.write(f'{dado}\n')
+     def adicionarNoArquivo(self, nome):
+         arquivo = open("TrabalhosPython//Aula29{}.txt".format(nome),"w")
+         if nome == "terminal":
+             for dado in self.__terminal:
+                 arquivo.write(f'{dado}\n')
 
-            arquivo.close()
+             arquivo.close()
 
-        elif nome == "aviao":
-            for dado in self.__avião:
-                arquivo.write(f'{dado}\n')
+         elif nome == "aviao":
+             for dado in self.__avião:
+                 arquivo.write(f'{dado}\n')
 
-            arquivo.close()
+             arquivo.close()
 
     def transportar(self, destino, pessoa1, pessoa2=None):
  
