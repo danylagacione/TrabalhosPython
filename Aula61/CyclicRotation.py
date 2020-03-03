@@ -51,3 +51,15 @@
 # função
 # deve
 # retornar[1, 2, 3, 4]
+
+def solucao(a: list, k):
+    if not a:
+        return a
+    for i in range(k):
+        last = a[-1]
+        rest = a[:-1]
+        a = [last, *rest]
+    return a
+
+lista = [3, 8, 9, 7, 6]
+print(solucao(lista, 1))

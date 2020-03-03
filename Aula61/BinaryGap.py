@@ -21,18 +21,27 @@
 # Dado N = 32, a função deve retornar 0, porque N tem representação binária '100000'
 # e, portanto, sem lacunas binárias.
 
-def binary(numero):
-    #numero = int(input('Número:'))
-    numero = (bin(numero))
-    numero = (numero[2:]).strip('').split('1')
-    #numero = len(max(numero))
-    print(numero)
-
-# melhorar o código
-print(str(binary(9)))
+# def binary(numero):
+#     #numero = int(input('Número:'))
+#     numero = (bin(numero))
+#     numero = (numero[2:]).strip('').split('1')
+#     #numero = len(max(numero))
+#     print(numero)
+#
+# # melhorar o código
+# print(str(binary(9)))
 
 # def solution(N):
 #   return len(max(bin(N)[2:].strip('0').strip('1').split('1')))
 #
 # print(solution(200))
+
+def solution(N):
+    N = (bin(N))
+    N = (N[2:])
+    N = N.strip('0').split('1')
+    print(N)
+    return N
+
+print(solution(32))
 

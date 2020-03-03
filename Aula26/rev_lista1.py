@@ -18,9 +18,7 @@ lista2.append(5)
 
 min(), max(), sum(), len()
 
-min() ele retorna o menor valor de uma lista.
-Esta função funciona para números quanto para alfabeto.
-
+min() ele retorna o menor valor de uma lista. Esta função funciona para números quanto para alfabeto.
 
 lista_numerica = [2,4,1,5,6,7,3]
 lista_alfabetica = ['a','b','d','g']
