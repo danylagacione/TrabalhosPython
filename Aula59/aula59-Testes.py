@@ -3,7 +3,7 @@
 # ----Testes em Python ----
 
 # Verificação de determinada condição é verdadeira
-assert True # tem que ser tru, pois essa é a verificação que ele faz
+assert True # tem que ser true, pois essa é a verificação que ele faz
 assert (10 == 10)
 assert (10 > 5)
 assert (' Danieli' != 'Lagacione')
